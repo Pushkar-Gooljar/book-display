@@ -1,0 +1,20 @@
+/* ../CSS/ReadingProgressBar.css */
+.circular-progress {
+  transition: stroke-dashoffset 0.35s;
+}
+
+.circular-progress-bg {
+  fill: none;
+  stroke: #e6e6e6; /* Background color */
+}
+
+.circular-progress-bar {
+  fill: none;
+  stroke: #4caf50; /* Progress color */
+  stroke-linecap: round; /* Rounded ends */
+  transition: stroke-dashoffset 0.35s;
+}
+
+.circular-progress-text {
+  display: none;
+}/*# sourceMappingURL=ReadingProgressBar.css.map */

@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --chapter-selection-h1-color: #323232;
+  --accordion-arrow-down: url("data:image/svg+xml,%3Csvg fill='%23{494949}' width='800' height='800' viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M128 188a11.96187 11.96187 0 0 1-8.48535-3.51465l-80-80a12.0001 12.0001 0 0 1 16.9707-16.9707L128 159.0293l71.51465-71.51465a12.0001 12.0001 0 0 1 16.9707 16.9707l-80 80A11.96187 11.96187 0 0 1 128 188Z'/%3E%3C/svg%3E");
+  --accordion-arrow-border-color: #eee;
+  --accordion-arrow-secondary-background-color: #EEF2FE;
+  --accordion-item-background-color: #fff;
+  --accordion-header-color: #323232;
+  --accordion-border-color: #eee;
+  --accordion-border-thickness: 1.8px;
+  --accordion-body-color: #323232;
+  --btn-primary-background-color: #265bf6;
+  --btn-primary-hover-background-color: #0620ed;
+  --btn-primary-active-background-color: #110176;
+  --background-color: #fff;
+  --color: #323232;
+  --navbar-background-color: #fff;
+  --navbar-text-color: #323232;
+  --progressbar-inner-background-color: #E9ECEF;
+  --webkit-box-shaddow: 0px 25px 48px -13px rgba(0,0,0,0.24);
+  --moz-box-shadow: 0px 25px 48px -13px rgba(0,0,0,0.24);
+  --box-shadow: 0px 25px 48px -13px rgba(0,0,0,0.24);
+  --footer-background-color: #f0f4fa;
+  --footer-webkit-box-shadow: 0px -10px 44px -22px rgba(0,0,0,0.46);
+  --footer-moz-box-shadow: 0px -10px 44px -22px rgba(0,0,0,0.46);
+  --footer-box-shadow: 0px -10px 44px -22px rgba(0,0,0,0.46);
+}
+
+[data-theme=dark] {
+  color-scheme: dark;
+  --chapter-selection-h1-color: #fff;
+  --accordion-arrow-down: url("data:image/svg+xml,%3Csvg fill='%23ffffff' width='800' height='800' viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M128 188a11.96187 11.96187 0 0 1-8.48535-3.51465l-80-80a12.0001 12.0001 0 0 1 16.9707-16.9707L128 159.0293l71.51465-71.51465a12.0001 12.0001 0 0 1 16.9707 16.9707l-80 80A11.96187 11.96187 0 0 1 128 188Z'/%3E%3C/svg%3E");
+  --accordion-arrow-border-color: #2d2d2d;
+  --accordion-arrow-secondary-background-color: #232A40;
+  --accordion-item-background-color: #121212;
+  --accordion-header-color: #fff;
+  --accordion-border-color: #424242;
+  --accordion-border-thickness: 1.5px;
+  --accordion-body-color: #fff;
+  --btn-primary-background-color: #3768F7;
+  --btn-primary-hover-background-color: #5c84f8;
+  --btn-primary-active-background-color: #a4bbfd;
+  --background-color: #111;
+  --navbar-background-color: #1e1e1e;
+  --navbar-text-color: #fff;
+  --progressbar-inner-background-color: #333;
+  --webkit-box-shadow: 0px 25px 33px -19px rgba(0,0,0,1);
+  --moz-box-shadow: 0px 25px 33px -19px rgba(0,0,0,1);
+  --box-shadow: 0px 25px 33px -19px rgba(0,0,0,1);
+  --footer-background-color: #222;
+  --color: #fff;
+  --footer-webkit-box-shadow: none;
+  --footer-moz-box-shadow: none;
+  --footer-box-shadow: none;
+}
+
+.btn-primary {
+  outline: none !important;
+  border: none !important;
+  background-color: var(--btn-primary-background-color) !important;
+  border-radius: 20px !important;
+  height: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease !important;
+}
+.btn-primary span {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.btn-primary:hover {
+  background-color: var(--btn-primary-hover-background-color) !important;
+}
+.btn-primary:active {
+  background-color: var(--btn-primary-active-background-color) !important;
+}
+
+.btn-secondary {
+  outline: none !important;
+  border: none;
+  background-color: #232a40 !important;
+  border-radius: 20px;
+  height: 40px;
+  padding: 10px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease !important;
+}
+.btn-secondary span {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  margin-left: 10px;
+  color: #a4bbfd;
+}
+.btn-secondary:hover {
+  background-color: #2d395c !important;
+}
+.btn-secondary:active {
+  background-color: rgba(147, 173, 251, 0.4) !important;
+}
+.btn-secondary .btn-icon {
+  color: #a4bbfd;
+}/*# sourceMappingURL=index.css.map */

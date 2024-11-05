@@ -1,0 +1,53 @@
+.btn-primary {
+  outline: none !important;
+  border: none;
+  background-color: #3768F7 !important;
+  border-radius: 20px;
+  height: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease !important;
+}
+.btn-primary span {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.btn-primary:hover {
+  background-color: #5c84f8 !important;
+}
+.btn-primary:active {
+  background-color: #a4bbfd !important;
+}
+
+.btn-secondary {
+  outline: none !important;
+  border: none;
+  background-color: #232a40 !important;
+  border-radius: 20px;
+  height: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease !important;
+}
+.btn-secondary span {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  margin-left: 10px;
+  color: #a4bbfd;
+}
+.btn-secondary:hover {
+  background-color: #2d395c !important;
+}
+.btn-secondary:active {
+  background-color: rgba(147, 173, 251, 0.4) !important;
+}
+.btn-secondary .btn-icon {
+  color: #a4bbfd;
+}/*# sourceMappingURL=Buttons.css.map */
